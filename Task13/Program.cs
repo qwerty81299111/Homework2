@@ -20,5 +20,5 @@ int ThirdNumber(int number)
 Console.WriteLine("Введите число ");
 int num = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
-if (num < 100) Console.WriteLine("Третьей цифры нет!");
-else Console.WriteLine($"Третья цифра числа  = {ThirdNumber(num)}");
+if (num < 100) Console.WriteLine("третьей цифры нет");
+else Console.WriteLine($"третья цифра числа  = {ThirdNumber(num)}");
